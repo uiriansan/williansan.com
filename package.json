@@ -4,7 +4,8 @@
   "description": "Just my portfolio website.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack server --config",
+    "build": "webpack build --config"
   },
   "keywords": [
     "threejs",
@@ -17,5 +18,15 @@
     "threejs-journey"
   ],
   "author": "Willian Santos <williansan.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.3.0",
+    "style-loader": "^3.3.0",
+    "three": "^0.133.1",
+    "webpack": "^5.56.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.3.1"
+  }
 }
