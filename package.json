@@ -1,0 +1,21 @@
+{
+  "name": "williansan.com",
+  "version": "1.0.0",
+  "description": "Just my portfolio website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "threejs",
+    "three.js",
+    "webpack",
+    "portfolio",
+    "3d",
+    "webgl",
+    "webgl3",
+    "threejs-journey"
+  ],
+  "author": "Willian Santos <williansan.com>",
+  "license": "ISC"
+}
