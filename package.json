@@ -4,8 +4,8 @@
   "description": "Just my portfolio website.",
   "main": "app.js",
   "scripts": {
-    "start": "webpack server --config ./bundler/webpack.prod.js",
-    "build": "webpack --config ./bundler/webpack.dev.js"
+    "start": "webpack server --config ./bundler/webpack.dev.js",
+    "build": "webpack --config ./bundler/webpack.prod.js"
   },
   "keywords": [
     "threejs",
